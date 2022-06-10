@@ -1,0 +1,619 @@
+
+@media (max-width: 575.98px) { 
+     /* header section design start here */
+     header {
+        padding: 0;
+    }
+     .logo_h {
+        font-size: 26px;
+        margin-top: 10px;
+     
+    }
+
+    .menu ul li {
+       margin: 0px;
+    }
+    /* header section design end here */
+
+   /* banner section design start here */
+  .banner {
+        background-color: #f7f7f7;
+        padding: 15px 0 40px;
+    }
+
+    .banner_content h2 {
+        font-size: 19px;
+        margin-top: 15px;
+ 
+    }
+    .btn1 {
+        padding: 8px 20px;
+    }  
+
+    .c_banner_img2 {
+        padding: 0 25px;
+        margin-bottom: 40px;
+    }
+    /* banner section design end here */   
+    
+    
+  /* about section design start here */
+    .about {
+        padding: 40px 0 0;
+    }
+    .about_img1 {
+        margin-top: 0px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .about_img2 {
+        width: 100%;
+    }
+    .about_h3 {
+        font-size: 18px;
+        margin-top: 12px;
+        margin-bottom: 35px;
+    }
+    .about_content h2 {
+        font-size: 19px;
+        margin-top: 10px;
+    }
+    .about_content h5 {
+        font-size: 17px;
+    }
+
+    .btn_2 {
+        padding: 8px 20px;
+    }
+  
+
+    /* about section design end here */
+
+      /* feature section design start here */
+      .feature {
+        padding: 40px 0;
+    }
+    .feature_h2 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .feature_box {
+        padding: 20px 10px;
+    }
+
+    /* design start here */
+    .design {
+        padding: 0 0 40px;
+    }
+    .design_h2 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .design_content h3 {
+        font-size: 19px;
+    }
+
+    .design_image {
+        padding-bottom: 20px;
+      }
+
+    /* project section design start here */
+
+   .project {
+    margin: 0px 0 50px;
+  }
+
+   .project_item {
+    padding: 30px 0;
+  }
+  .project_item_img {
+    padding-bottom: 32px;
+}
+   .pc_span {
+    font-size: 40px;
+  }
+  .pc_h4 {
+    font-size: 18px;
+    text-align: end;
+}
+
+   /* team section design start here */
+   .teams {
+    padding: 0 0 40px;
+}
+.common_h2 {
+    font-size: 20px;
+}
+.team_content h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+/* team section design end here */
+
+
+/* blog section design start here */
+.blog {
+    padding: 0 0 40px;
+}
+.blog_content h4 {
+    font-size: 18px;
+    margin-bottom: 25px;
+   
+}
+
+/* blog section end here */
+
+
+    /* contact section design start here */
+
+    .contact {
+        padding: 0px;
+    }
+      .contact_main {
+        text-align: center;
+    }
+
+    .contact_h2 {
+        font-size: 19px;
+        margin-bottom: 30px;
+    }
+
+    .social_content span i {
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+
+    .contact_btn {
+        padding: 8px 20px;
+    }
+
+     /* gallery section design here */
+
+      .gallery {
+        padding: 0 0 50px;
+    }
+
+      .shape_img {
+        margin-top: 50px;
+        text-align: center;
+    } 
+
+   /* footer section design start here */
+
+   footer {
+    padding: 20px 0 40px;
+    background-color: #162b45;
+   }
+
+   .footer_item {
+    margin-top: 20px;
+    text-align: center;
+}
+.footer_h {
+    font-size: 26px;
+}
+.footer_item h3 {
+    font-size: 18px;
+}
+
+  .footer_social_content a span i {
+    margin-top: 10px;
+  }
+
+/* footer section design end here */  
+   
+    
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+        /* header section design start here */
+     .logo_h {
+       font-size: 28px;
+       margin-top: 9px;
+     
+    }      
+    .menu ul li {
+        margin: 0px;
+    }
+    /* header section design end here */
+
+    /* banner section design start here */
+    .banner {
+        background-color: #f7f7f7;
+        padding: 15px 0 40px;
+    }
+
+    .banner_content h2 {
+        font-size: 30px;
+    }
+    .btn1 {
+        padding: 10px 24px;
+    }
+
+    .c_banner_img2 {
+        padding: 0 50px;
+        margin-bottom: 40px;
+    }
+    /* banner section design end here */  
+    
+    /* about section design start here */
+    .about {
+        padding: 50px 0 0;
+    }
+    .about_img1 {
+        margin-top: 0px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .about_img2 {
+        width: 100%;
+    }
+    .about_h3 {
+        font-size: 20px;
+        margin-top: 12px;
+        margin-bottom: 35px;
+    }
+    .about_content h2 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .about_content h5 {
+        font-size: 18px;
+    }
+
+    .btn_2 {
+        padding: 10px 24px;
+    }
+  
+
+    /* about section design end here */
+    
+    
+    /* feature section design start here */
+    .feature {
+        padding: 50px 0;
+    }
+    .feature_h2 {
+        font-size: 30px;
+    }
+
+    .feature_box {
+        padding: 20px 10px;
+    }
+
+   /* design start here */
+   .design{
+    padding:0 0 50px
+  }
+  .design_h2 {
+    font-size: 30px;
+}
+  .design_content h3 {
+    font-size: 20px;
+    
+
+}
+
+   .design_image {
+    padding-bottom: 30px;
+  }
+
+   /* project section design start here */
+
+   .project {
+    margin: 0px 0 50px;
+  }
+
+   .project_item {
+    padding: 30px 0;
+  }
+   .pc_span {
+    font-size: 40px;
+  }
+   .pc_h4 {
+    font-size: 18px;
+  }
+
+    /* team section design start here */
+    .teams {
+        padding: 0 0 50px;
+    }
+    .common_h2 {
+        font-size: 30px;
+    }
+    .team_content h4 {
+        font-size: 20px;
+    }
+    /* team section design end here */
+
+
+    /* blog section design start here */
+    .blog {
+        padding: 0 0 40px;
+    }
+    .blog_content h4 {
+        font-size: 18px;
+    
+    }
+
+    /* blog section design end here */
+
+
+
+    /* contact section design start here */
+
+      .contact {
+        padding: 0 0 50px;
+    }
+      .contact_main {
+        text-align: center;
+    }
+
+    .contact_h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .social_content span i {
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+    .contact_btn {
+        padding: 10px 24px;
+    }
+
+      /* gallery section design here */
+
+      .gallery {
+        padding: 0 0 50px;
+    }
+
+      .shape_img {
+        margin-top: 50px;
+        text-align: center;
+    } 
+
+    /* footer section design start here */
+
+    footer {
+        padding: 30px 0 50px;
+        background-color: #162b45;
+    }
+    .footer_h {
+        font-size: 28px;
+    }
+    .footer_item h3 {
+        font-size: 20px;
+    }
+    .footer_social_content a span i {
+        margin-top: 10px;
+    }
+
+    /* footer section design end here */ 
+   
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* header section design start here */
+    .menu ul li {
+        margin: 0px;
+    }
+    /* header section design end here */
+
+    /* banner section design start here */
+    .banner {
+        background-color: #f7f7f7;
+        padding: 15px 0 40px;
+    }
+
+    .banner_content h2 {
+        font-size: 42px;
+    }
+    .btn1 {
+         padding: 10px 24px;
+    }
+
+    .c_banner_img2 {
+        padding: 0 80px;
+        margin-bottom: 40px;
+     }
+    /* banner section design end here */
+
+
+    /* about section design start here */
+    .about_img1 {
+        margin-top: 0px;
+        margin-bottom: 80px;
+    }
+    .about_content h2 {
+        font-size: 35px;
+    }
+    .about_h3 {
+        font-family: Poppins-Bold;
+        font-size: 24px;
+        color: #233646;
+        margin-top: 10px;
+    }
+
+    /* about section end here */
+
+    /* feature section design start here */
+    
+    /* .feature {
+        padding: 70px 0;
+    } */
+    .feature_h2 {
+        font-size: 36px;
+    }
+
+
+    /* design start here */
+    .design{
+        padding:0 0 70px
+    }
+    .design_h2 {
+        font-size: 36px;
+    }
+   
+    .design_image {
+        padding-bottom: 30px;
+    }
+
+    /* project section design start here */
+
+    .project {
+        margin: 0px 0 70px;
+    }
+
+    .project_item {
+        padding: 40px 0;
+    }
+    .pc_span {
+        font-size: 50px;
+    }
+    .pc_h4 {
+        font-size: 20px;
+    }
+
+
+    /* team section design start here */
+    .teams {
+        padding: 0 0 70px;
+    }
+    .common_h2 {
+        font-size: 30px;
+    }
+    .team_content h4 {
+        font-size: 20px;
+    }
+    /* team section design end here */
+
+
+    /* blog section design start here */
+    .blog {
+        padding: 0 0 70px;
+    }
+
+    .blog_content {
+        padding: 0px 10px;
+    }
+    .meta_tag a {
+        padding: 0px 8px;
+    }
+
+    .blog_content h4 {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    .blog-footer a i {
+        color: #ff7214;
+        margin-right: 0px;
+    }
+
+    .blog-footer a {
+        padding: 0 4px;
+    }
+
+      /* blog section design start here */
+
+
+      /* contact section design start here */
+
+      .contact {
+        padding: 0 0 40px;
+    }
+      .contact_main {
+        text-align: center;
+    }
+
+    .contact_h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .social_content span i {
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+
+
+    /* gallery section design here */
+
+    .gallery {
+        padding: 0 0 70px;
+    }
+
+    .shape_img {
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+
+    /* footer section design start here */
+
+    footer {
+        padding: 40px 0 70px;
+        background-color: #162b45;
+    }
+    .footer_social_content a span i {
+        margin-top: 20px;
+    }
+
+    /* footer section design end here */
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* banner section design start here */
+    .banner_content h2 {
+        font-size: 46px;
+    }
+    /* banner section design end here */
+
+    /* about section design start here */
+    .about_content h2 {
+        font-size: 36px;
+    }
+
+    .about_h3 {
+        margin-top: 25px;
+    }
+
+    /* feature section design start here */
+    .feature_h2 {
+        font-size: 36px;
+    }
+    .feature_box {
+        padding: 15px 10px;
+    }
+    .feature_box h3 {
+        font-size: 20px;
+    }
+
+    /* design start here */
+    .design_content h3 {
+        font-size: 20px;
+    }
+
+    /* project section design start here */
+    .pc_h4 {
+        margin-left: 10px;
+    }
+
+ }
+
+ /* Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+ 
+}
+
+
+ /* Extra large devices (extra large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  
+ }

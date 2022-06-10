@@ -1,0 +1,649 @@
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../fonts/allfonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(../fonts/allfonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../fonts/allfonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../fonts/allfonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(../fonts/allfonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/allfonts/Roboto-Regular.ttf);
+}
+
+/* common css */
+body{
+    font-family: Roboto-Regular;
+    font-weight: 400;
+    font-size: 16px;
+    color: #888888;
+    line-height: 24px;
+}
+
+/* heading design start here */
+header{
+    padding: 10px 0;
+    background-color: #f7f7f7;
+    position: sticky;
+    top: 0;
+}
+
+.logo_h{
+    font-family: Poppins-Bold;
+    font-size:32px;
+    color: #323540;
+    margin-top: 7px;
+    text-transform: uppercase;
+}
+
+.logo_h span{
+    color:#ff7214;
+}
+.custom_toggler:focus{
+    box-shadow: 0 0 0 1px;
+
+}
+
+
+.menu ul li{
+    margin: 0px 12px;
+}
+.menu ul li a{
+    font-family: Roboto-Medium;
+    color: #323541;
+    text-transform: uppercase;
+    transition: 0.4;
+}
+.menu ul li a:hover{
+    color:#ff7214;
+}
+
+.menu ul li:last-child {
+    margin-right: 0px;
+}
+/* heading section end here */
+
+
+/* banner section design start here */
+.banner{
+    background-color: #f7f7f7;
+    padding:40px 0 60px;
+
+}
+
+.banner_content span{
+    font-family: Roboto-Medium;
+    font-size: 18px;
+    color: #ff7214;
+}
+
+.banner_content h2{
+    font-family: Poppins-Bold;
+    font-size: 55px;
+    color: #112e41;
+    margin-bottom: 20px;
+    
+
+}
+.banner_content p{
+    margin-bottom: 30px;
+}
+.btn1{
+    font-family: Poppins-SemiBold;
+    background-color: #ff7214;
+    padding: 12px 28px;
+    color: #ffffff;
+    text-transform: uppercase;
+
+}
+
+/* banner section design end here */
+
+/* about section design start here */
+.about{
+    padding: 70px 0 80px ;
+}
+
+.about_content span{
+    font-family: Roboto-Medium;
+    font-size: 16px;
+    color: #ff7214;
+    text-transform: uppercase;
+}
+.about_content h2{
+    font-family: Poppins-Bold;
+    font-size: 42px;
+    color: #112e41;
+    margin-top: 20px;
+}
+
+.about_content h5{
+    margin: 15px 0;
+    font-family: Poppins-Medium;
+    font-size: 20px;
+    color: #112e41;
+}
+.about_img1{
+    margin-top: 40px;
+}
+.about_h3{
+    font-family: Poppins-Bold;
+    font-size: 28px;
+    color: #233646;
+    margin-top: 60px;
+}
+.btn_2{
+    font-family: Poppins-SemiBold;
+    background-color: #ff7214;
+    padding: 12px 28px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+/* about section design end here */
+
+
+/* feature section design start here */
+.feature{
+    padding:0 0 80px
+}
+
+.feature_main_content{
+    text-align: center;
+}
+
+.feature_sp{
+    font-family: Roboto-Medium;
+    font-size: 16px;
+    color: #ff7214;
+    text-transform: uppercase;
+}
+
+.feature_h2{
+    font-family: Poppins-Bold;
+    font-size: 42px;
+    color: #112e41;
+    margin-top: 20px;
+}
+
+.feature_box{
+    padding:30px 10px;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.3s;
+    border: 5px solid #f6f7fb;
+}
+
+.feature_box:hover{
+    box-shadow: 0 0 10px rgb(0 0 0 / 7%);
+    border-color: transparent;
+ }
+.feature_icon1, .feature_icon2, .feature_icon3, .feature_icon4{
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 30px;
+    line-height: 80px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.feature_icon1:hover, .feature_icon2:hover, .feature_icon3:hover, .feature_icon4:hover {
+    transform: scale(.8);
+}
+.feature_icon1 {
+    background-color: #ffeee2;
+}
+
+.feature_icon1 i{
+    color: #ff7214;
+    font-size: 27px;
+}
+
+.feature_icon2 {
+    background-color: #ebe3ff;
+}
+
+.feature_icon2 i{
+    color: #9165ff;
+    font-size: 27px;
+}
+
+.feature_icon3 {
+    background-color: #d5f8ff;
+}
+
+.feature_icon3 i{
+    color: #178efd;
+    font-size: 27px;
+}
+
+.feature_icon4 {
+    background-color: #ffedf5;
+}
+
+.feature_icon4 i{
+    color: #ff1481;
+    font-size: 27px;
+}
+
+.feature_box h3{
+    font-family: Poppins-SemiBold;
+    font-size: 22px;
+    color: #233646;
+    text-transform: capitalize;
+}
+/* feature section design end here */
+
+
+/* design section start here */
+.design{
+    padding:0 0 80px
+}
+
+.design_main_content{
+    text-align: center;
+
+}
+.design_sp{
+    font-family: Roboto-Medium;
+    color: #ff7214;
+    text-transform: uppercase;
+}
+
+.design_h2{
+    font-family: Poppins-Bold;
+    font-size: 42px;
+    color: #112e41;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.design_content span{
+    font-family: Roboto-Medium;
+    color: #ff7214;
+    text-transform: uppercase;
+}
+
+.design_content h3{
+    font-family: Poppins-Bold;
+    font-size: 24px;
+    color: #112e41;
+    margin-top: 20px;
+}
+
+.design_content p{
+    margin-top: 20px;
+    line-height: 27px;
+    text-align: justify;
+
+}
+.design_content a{
+    font-family: Poppins-SemiBold;
+    color: #112e41;
+    text-decoration:none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.design_content a:hover{
+   color: #ff7214;
+}
+
+.design img{
+    width: 100%;
+}
+
+/* design section end here */
+
+
+/* project section design start here */
+.project{
+    margin:0 0 80px;
+    background-color: #162b45;
+
+}
+.project_item{
+    padding: 60px 0;
+
+}
+
+.project_item_img{
+    padding-bottom: 40px;
+
+}
+.project_item_img img{
+    transition: 0.3s;
+  
+}
+.project_item_img img:hover{
+    transform: scale(.8);
+}
+
+.pc_span{
+    font-family: Roboto-Bold;
+    font-size: 60px;
+    color: #ffffff;
+
+}
+
+.pc_h4{
+    font-family: Poppins-Bold;
+    font-size: 22px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+
+/* team section design start here */
+.teams{
+    padding: 0 0 80px;
+}
+
+.common_content{
+    text-align: center;
+}
+
+.common_sp{
+    font-family: Roboto-Medium;
+    color: #ff7214;
+    text-transform: uppercase;
+}
+
+.common_h2{
+    font-family: Poppins-Bold;
+    font-size: 42px;
+    color: #112e41;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.team_item{
+    margin-top: 25px;
+    text-align: center;
+    border: 5px solid #f6f7fb;
+    border-radius: 4px;
+}
+
+.team_img {
+    padding: 10px;
+}
+
+.team_img img{
+    width: 100%;
+    padding-bottom: 18px;
+}
+
+.team_content h4{
+    font-family: Poppins-SemiBold;
+    font-size: 22px;
+    color: #162b45;
+    transition: 0.3s;
+}
+.team_content h4:hover{
+    color: #ff7214;
+    cursor: pointer;
+}
+
+.team_content ul{
+    padding-left: 0px;
+}
+
+.team_content ul li a{
+    text-decoration: none;
+    color: #888888;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+.team_content ul li a:hover{
+    color: #ff7214;
+}
+
+/* team section end here */
+
+
+/* blog section design start here */
+.blog{
+    padding: 0 0 80px;
+}
+
+.blog_item{
+    border: 4px solid #f6f7fb;
+    padding: 0 0 30px;
+    margin-top: 30px;
+}
+.common_h2 {
+    margin-bottom: 20px;
+}
+
+.blog_img img{
+    width: 100%;
+    padding-bottom: 20px;
+
+}
+
+.blog_content{
+    padding: 0 20px;
+}
+
+.meta_tag a{
+    padding: 0 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #888888;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.meta_tag a:first-child {
+    padding-left: 0;
+}
+
+.meta_tag a span{
+    padding-left: 12px;
+
+}
+.blog_content,.meta_tag a:hover{
+    color: #ff7214;
+}
+
+.blog_content h4{
+    font-family: Poppins-SemiBold;
+    font-size: 22px;
+    color: #112e41;
+    margin-top: 15px;
+    transition: 0.3s;
+    margin-bottom: 30px;
+    cursor: pointer;
+   
+}
+
+.blog_content h4:hover{
+    color:#ff7214
+}
+
+.blog-footer a{
+    padding: 0 15px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #888888;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.blog-footer a:first-child {
+    padding-left: 0;
+}
+.blog-footer a i{
+    color: #ff7214;
+    margin-right: 6px;
+}
+.blog-footer a:hover{
+    color: #ff7214;
+}
+
+/* blog section design end here */
+
+
+/* contact section design start here */
+.contact{
+    padding: 10px 0 80px;
+}
+
+.contact_sp{
+    font-family: Roboto-Medium;
+    color: #ff7214;
+    text-transform: uppercase;
+}
+
+.contact_h2{
+    font-family: Poppins-Bold;
+    font-size: 30px;
+    color: #112e41;
+    margin-top: 15px;
+}
+
+.social_content span i{
+    padding-right: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: #ff7214;
+}
+
+
+.contact .social_content a{
+    text-decoration: none;
+    color: #888888;
+    transition: 0.3s;
+}
+
+.contact .social_content a:hover{
+    color: #ff7214;
+
+}
+
+.custom_fc{
+    padding: 14px 16px;
+    color: #888888;
+    border: 1px solid #e5e6ea;
+    border-radius: 0;
+}
+
+.custom_fc:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: none;
+}
+
+.custom_textarea{
+    resize: none;
+}
+.c_btn{
+    text-align: center;
+}
+
+.contact_btn{
+    font-family: Poppins-SemiBold;
+    background-color: #ff7214;
+    color:#ffffff;
+    text-transform: uppercase;
+    padding: 12px 28px;
+    margin-top: 15px;
+}
+/* contact section design end here */
+
+
+/* gallery section design here */
+.gallery{
+    padding: 0 0 80px;
+}
+/* gallery section end here */
+
+
+/* footer section design start here */
+footer{
+    padding: 50px 0 70px;
+    background-color: #162b45;
+}
+
+.footer_h{
+    font-family: Poppins-Bold;
+    font-size:32px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.footer_h span{
+    color:#ff7214;
+}
+
+.footer_item{
+    margin-top: 30px;
+}
+
+.footer_item p{
+    color: #999999;
+    line-height: 28px;
+}
+
+.footer_item h3{
+    font-family: Poppins-SemiBold;
+    font-size: 22px;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.footer_item ul li a{
+    color: #999999;
+    text-transform: capitalize;
+    line-height: 28px;
+    transition: 0.3s;
+}
+
+.footer_item ul li a:hover{
+    color: #ff7214;
+}
+
+.insta_img{
+    margin-top: 12px;
+}
+.footer_social_content a{
+    color: #999999;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer_social_content a:hover{
+    color: #ff7214;
+}
+
+.footer_social_content a span i {
+    margin-right: 12px;
+    color: #ff7214;
+}
+
+/* footer section design end here */
+
+.footer_p{
+    background-color: #10233a;
+    padding: 20px 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer_p span{
+    color: #ff7214;
+}
